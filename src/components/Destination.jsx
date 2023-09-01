@@ -27,7 +27,7 @@ const Destination = () => {
               >
                 <img
                   className="rounded-2xl h-96 md:h-80 lg:h-96 w-full"
-                  src="./src/assets/image/destination-1.png"
+                  src="/images/destination-1.png"
                   alt="pic-destination"
                 />
                 <div className="px-5 py-8">
@@ -54,7 +54,7 @@ const Destination = () => {
               >
                 <img
                   className="rounded-2xl h-96 md:h-80 lg:h-96 w-full"
-                  src="./src/assets/image/destination-2.jpg"
+                  src="/images/destination-2.jpg"
                   alt="pic-destination"
                 />
                 <div className="px-5 py-8">
@@ -81,7 +81,7 @@ const Destination = () => {
               >
                 <img
                   className="rounded-2xl h-96 md:h-80 lg:h-96 w-full"
-                  src="./src/assets/image/destination-3.jpg"
+                  src="/images/destination-3.jpg"
                   alt="pic-destination"
                 />
                 <div className="px-5 py-8">
@@ -108,7 +108,7 @@ const Destination = () => {
               >
                 <img
                   className="rounded-2xl h-96 md:h-80 lg:h-96 w-full"
-                  src="./src/assets/image/destination-4.jpg"
+                  src="/images/destination-4.jpg"
                   alt="pic-destination"
                 />
                 <div className="px-5 py-8">
@@ -135,7 +135,7 @@ const Destination = () => {
               >
                 <img
                   className="rounded-2xl h-96 md:h-80 lg:h-96 w-full"
-                  src="./src/assets/image/destination-5.jpg"
+                  src="/images/destination-5.jpg"
                   alt="pic-destination"
                 />
                 <div className="px-5 py-8">
@@ -162,7 +162,7 @@ const Destination = () => {
               >
                 <img
                   className="rounded-2xl h-96 md:h-80 lg:h-96 w-full"
-                  src="./src/assets/image/destination-6.jpg"
+                  src="/images/destination-6.jpg"
                   alt="pic-destination"
                 />
                 <div className="px-5 py-8">

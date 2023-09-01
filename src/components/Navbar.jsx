@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, animateScroll } from "react-scroll";
 
 const Navbar = () => {
   let links = [
@@ -22,12 +23,17 @@ const Navbar = () => {
             </div>
             <ul className="text-base font-semibold lg:flex hidden gap-5 text-slate-800">
               {links.map((link) => (
-                <li key={link.name} className="hover:text-indigo-600">
-                  <a href={link.tag}>{link.name}</a>
+                <li
+                  key={link.name}
+                  className="hover:text-indigo-600 cursor-pointer"
+                >
+                  <Link smooth={true} to={link.tag}>
+                    {link.name}
+                  </Link>
                 </li>
               ))}
             </ul>
-            <div className="hidden lg:block">
+            <div className="hidden lg:block space-x-2">
               <button className="text-indigo-600 text-base border border-indigo-600 px-6 py-2 rounded-full hover:text-white hover:bg-indigo-600">
                 Login
               </button>
@@ -50,17 +56,24 @@ const Navbar = () => {
           >
             <ul className="text-base font-semibold mb-5 space-y-2 text-slate-800">
               {links.map((link) => (
-                <li key={link.name} className="hover:text-indigo-600">
-                  <a href={link.tag}>{link.name}</a>
+                <li
+                  key={link.name}
+                  className="hover:text-indigo-600 cursor-pointer"
+                >
+                  <Link smooth={true} to={link.tag}>
+                    {link.name}
+                  </Link>
                 </li>
               ))}
             </ul>
-            <button className="text-indigo-600 text-base border border-indigo-600 px-6 py-2 rounded-full hover:text-white hover:bg-indigo-600">
-              Login
-            </button>
-            <button className="text-white text-base bg-indigo-600 px-6 py-2 rounded-full hover:bg-indigo-700">
-              Sign Up
-            </button>
+            <div className="space-x-2">
+              <button className="text-indigo-600 text-base border border-indigo-600 px-6 py-2 rounded-full hover:text-white hover:bg-indigo-600">
+                Login
+              </button>
+              <button className="text-white text-base bg-indigo-600 px-6 py-2 rounded-full hover:bg-indigo-700">
+                Sign Up
+              </button>
+            </div>
           </div>
         </div>
       </section>

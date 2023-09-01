@@ -72,7 +72,7 @@ const Features = () => {
             >
               <img
                 className="lg:h-[550px] mx-auto"
-                src="./src/assets/image/feauture.png"
+                src="/images/feauture.png"
                 alt="pic-feature"
               />
             </div>

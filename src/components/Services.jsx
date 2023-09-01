@@ -28,7 +28,7 @@ const Services = () => {
               >
                 <div>
                   <img
-                    src="./src/assets/image/service-icon-1.svg"
+                    src="/images/service-icon-1.svg"
                     alt="icon-service"
                     className="w-20 h-20"
                   />
@@ -51,7 +51,7 @@ const Services = () => {
               >
                 <div>
                   <img
-                    src="./src/assets/image/service-icon-2.svg"
+                    src="/images/service-icon-2.svg"
                     alt="icon-service"
                     className="w-20 h-20"
                   />
@@ -73,7 +73,7 @@ const Services = () => {
               >
                 <div>
                   <img
-                    src="./src/assets/image/service-icon-3.svg"
+                    src="/images/service-icon-3.svg"
                     alt="icon-service"
                     className="w-20 h-20"
                   />

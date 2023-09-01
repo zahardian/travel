@@ -43,7 +43,7 @@ const Hero = () => {
               <div>
                 <img
                   className="mx-auto"
-                  src="./src/assets/image/hero-plane.png"
+                  src="/images/hero-plane.png"
                   alt="pic"
                 />
               </div>

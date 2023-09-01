@@ -10,7 +10,7 @@ import Subscribe from "./components/Subscribe";
 
 function App() {
   return (
-    <>
+    <div className="container">
       {/* navbar */}
       <Navbar />
 
@@ -34,7 +34,7 @@ function App() {
 
       {/* footer */}
       <Footer />
-    </>
+    </div>
   );
 }
 

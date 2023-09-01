@@ -14,7 +14,7 @@ const Point = () => {
             >
               <img
                 className="w-full drop-shadow-[12px_12px_7px_rgba(0,0,0,0.7)]"
-                src="./src/assets/image/plane.png"
+                src="/images/plane.png"
                 alt=""
               />
             </div>
